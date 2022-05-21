@@ -22,12 +22,6 @@ while (true)
         continue;
     }
 
-    Console.Write("Введите первое число: ");
-    firstNumber = double.Parse(Console.ReadLine());
-
-    Console.Write("Введите второе число: ");
-    secondNumber = double.Parse(Console.ReadLine());
-
     Console.Write("Введите математический знак(+, -, *, /): ");
     sign = char.Parse(Console.ReadLine());
 
